@@ -19,7 +19,11 @@ return new class extends Migration
             $table->unsignedBigInteger('utilisateur_id');
             $table->timestamps();
         });
+        Schema::table('reclamations', function (Blueprint $table) {
+            $table->foreign('utilisateur_id')->references('id')->on('users');
+        });
     }
+    
 
     /**
      * Reverse the migrations.
