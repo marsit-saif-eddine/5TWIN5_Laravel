@@ -21,7 +21,7 @@ class NoteFactory extends Factory
             'label',
             'subject',
             'date_creation'=> now(),
-            'date_before_expiration',
+           
         ];
     }
 }

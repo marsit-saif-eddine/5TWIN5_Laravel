@@ -15,13 +15,13 @@ class UserSeeder extends Seeder
      */
     public function run()
     {
-        DB::table('users')->insert([
-            'id' => 1,
-            'name' => 'admin',
-            'email' => 'admin@softui.com',
-            'password' => Hash::make('secret'),
-            'created_at' => now(),
-            'updated_at' => now()
-        ]);
+        // DB::table('users')->insert([
+        //     'id' => 110,
+        //     'name' => 'fdghdetr',
+        //     'email' => 'saifgrersgf@softui.com',
+        //     'password' => Hash::make('secret'),
+        //     'created_at' => now(),
+        //     'updated_at' => now()
+        // ]);
     }
 }

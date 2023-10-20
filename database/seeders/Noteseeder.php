@@ -15,11 +15,11 @@ class Noteseeder extends Seeder
     public function run(): void
     {
         DB::table('notes')->insert([
-            'title' => 'Sample Title',
-            'label' => 'Sample Label',
-            'subject' => 'Sample Subject',
-            'date_creation' => Carbon::now(), // Use Carbon for now()
-            'date_before_expiration' => Carbon::now(), // Use Carbon for now()
+            // 'title' => 'Sample Title',
+            // 'label' => 'Sample Label',
+            // 'subject' => 'Sample Subject',
+            // 'date_creation' => Carbon::now(), // Use Carbon for now()
+            
         ]);
     }
 }

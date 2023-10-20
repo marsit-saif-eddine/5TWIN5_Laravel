@@ -15,13 +15,9 @@ class Note extends Model
         'label',
         'subject',
         'date_creation',
-        'date_before_expiration',
+       
         
     ];
-    * @var array
-    */
-   protected $casts = [
-       'date_before_expiration' => 'datetime',
-   ];
+
    
 }
